@@ -6,11 +6,17 @@
     font-family: 'Zilla Slab', serif;
 }
 
-body
-{
-	background-color:#e0d4c1 ;
+html{
+
+    scroll-behavior: smooth;
 }
 
+body
+{
+	background-color:#f2efeb ;
+}
+
+/*#f2efeb*/
 #navbarTop
 {
 	background: linear-gradient(90deg, black 50%,  #ad0006 70%);
@@ -51,4 +57,72 @@ body
 .content h3 span{
     color: #ad0006;
     font-weight: bold;
+    font-size: 45px;
+
+}
+
+#inteR{
+    color: #ad0006;
+    font-weight: bold;
+    font-size: 45px;
+}
+
+.black {
+  color: black;
+}
+a:hover{
+    background-color: #e0d4c1;
+}
+
+h3 u {
+  text-decoration-color: #ad0006;
+}
+
+#projects{
+
+    background-color:#f2efeb ;
+}
+
+#tools{
+    width: 100%;
+    height: 100vh;
+    background-color: #f2efeb;
+}
+#tools h3{
+    width: 130px;
+    padding-top: 130px;
+    color: black;
+    border-bottom: 2px solid #f2efeb;
+    text-align: center;
+}
+#tools .card{
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+#tools .card:hover{
+    background-color: #e0d4c1;
+}
+#services p{
+    color: white;
+}
+#tools .card i{
+    font-size: 42px;
+    margin-left: 10px;
+}
+#tools .card h2{
+    font-size: 22px;
+    margin-left: 10px;
+}
+@media screen and (max-width:767px){
+    #tools{
+        height: 200vh;
+    }
+}
+
+form {
+  background-color: #ad0006;
+}
+
+.card {
+margin-right: 20px; 
 }
