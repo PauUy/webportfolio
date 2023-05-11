@@ -1,0 +1,54 @@
+/*CSS Reset*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Zilla Slab', serif;
+}
+
+body
+{
+	background-color:#e0d4c1 ;
+}
+
+#navbarTop
+{
+	background: linear-gradient(90deg, black 50%,  #ad0006 70%);
+}
+
+.home{
+    width: 100%;
+    height: 91.5vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    position: relative;
+    z-index: 0;
+}
+.changecontent::after{
+    content: ' ';
+    color: #ad0006;
+    font-weight: bold;
+    font-size: 45px;
+    animation: changetext 20s infinite linear;
+}
+@keyframes changetext{
+    0%{content: "Full Stack Developer";}
+    16%{content: "Front End Developer";}
+    36%{content: "Back End Developer";}
+    46%{content: "Software Artisan";}
+    61%{content: "Software Developer";}
+    77%{content: "Geek";}
+    100%{content: "Techie";}
+
+}
+
+.content {
+  margin-left: 35%; 
+}	
+
+.content h3 span{
+    color: #ad0006;
+    font-weight: bold;
+}
