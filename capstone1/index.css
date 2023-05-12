@@ -67,9 +67,9 @@ body
     font-size: 45px;
 }
 
-.black {
+/*.black {
   color: black;
-}
+}*/
 a:hover{
     background-color: #e0d4c1;
 }
@@ -102,9 +102,7 @@ h3 u {
 #tools .card:hover{
     background-color: #e0d4c1;
 }
-#services p{
-    color: white;
-}
+
 #tools .card i{
     font-size: 42px;
     margin-left: 10px;
@@ -125,4 +123,128 @@ form {
 
 .card {
 margin-right: 20px; 
+}
+
+
+
+/**/
+
+#contacts{
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+}
+#contacts h1{
+    color: white;
+    border-bottom: 2px solid #ad0006;
+    width: 210px;
+    padding-top: 100px;
+}
+#contacts p{
+    color: white;
+}
+#contacts input{
+    width: 420px;
+    margin-top: 30px;
+    background: black;
+    border: none;
+    border-bottom: 2px solid #ad0006;
+}
+#contacts ::placeholder{
+    color: white;
+}
+#contacts textarea{
+   
+    border: 2px solid #ad0006;
+    margin-top: 20px;
+    color: white;
+}
+
+
+
+
+#btncontact{
+    width: 420px;
+    height: 38px;
+    letter-spacing: 3px;
+    font-weight: bold;
+    background: transparent;
+    color: #ad0006;
+    border: 2px solid #ad0006;
+    margin-top: 30px;
+}
+#contacts i{
+    color: #ad0006;
+    margin-top: 30px;
+    margin-left: 7px;
+    font-size: 20px;
+}
+
+@media screen and (max-width:995px){
+    #contacts input{
+        width: 350px;
+    }
+    #contacts textarea{
+        width: 350px;
+    }
+    #contacts #btncontact{
+        width: 350px;
+    }
+}
+@media screen and (max-width:476px){
+    #contacts input{
+        width: 250px;
+    }
+    #contacts textarea{
+        width: 250px;
+    }
+    #contacts #btncontact{
+        width: 250px;
+    }
+}
+@media screen and (max-width: 320px){
+    #contact input{
+        width: 180px;
+    }
+    #contact textarea{
+        width: 180px;
+    }
+    #contact #btncontact{
+        width: 180px;
+    }
+}
+@media screen and (max-width: 767px){
+    #contacts{
+        height: 150vh;
+    }
+}#contacts input{
+    background: transparent;
+    border: 2px solid #ad0006;
+    margin-top: 20px;
+    color: white;
+
+}
+
+
+/**/
+
+#footer{
+    width: 100%;
+    background: linear-gradient(90deg, black 50%,  #ad0006 70%);
+}
+#footer h1{
+    color: white;
+    text-shadow: 0px 1px 1px black;
+    padding-top: 30px;
+}
+
+}
+.copyright{
+    color: white;
+    margin-top: 20px;
+    text-shadow: 1px 1px 1px black;
+}
+.cfooter{
+    color: white;
+    text-shadow: 1px 1px 1px black;
 }
